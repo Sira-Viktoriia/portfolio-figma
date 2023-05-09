@@ -1,0 +1,66 @@
+body {
+  display: block;
+  margin: auto;
+  max-width: 1440px;
+  font-family: Nunito;
+  font-weight:700;
+  color:  #272142;
+  }
+.wrap {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+   }
+   .page-link a {
+    font-size: 18px;
+   }
+.page-link:hover,
+ .page-link:focus{
+  color:#662EED;
+}
+.is-active {
+ color:#662EED; 
+}
+.main-title {
+  margin: auto;
+  background-image: url(/css/images/overlay.png);
+  text-align: center;
+  color:white;
+  height: 265px;
+}
+h1 {
+   padding-top: 55px;
+   margin-top: 40px;
+   font-size: 72px;
+   }
+   .description {
+    font-size: 24px;
+   }
+
+   p{
+    font-size: 28px;
+   }
+h2 {
+  
+  font-size: 24px;
+  font-weight: 700;
+}
+ul {
+  display: inline-flex;
+  gap: 20px;
+  text-decoration: none;
+  list-style:none;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+  margin-top: 20px;
+  height: 100px;
+  background-color: #F9F7FE;
+}
+span {
+  font-size: 16px;
+  font-family: 'Roboto Mono', monospace;
+}
+
