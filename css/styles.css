@@ -2,10 +2,12 @@ body {
   display: block;
   margin: auto;
   max-width: 1440px;
+  color: #272142;
+    }
+  h1, h2, h3, h4, p, .follow-link, .page-link {
   font-family: Nunito;
   font-weight:700;
-  color:  #272142;
-  }
+    }
 .wrap {
   display: flex;
   justify-content: space-around;
@@ -15,11 +17,12 @@ body {
     font-size: 18px;
    }
 .page-link:hover,
- .page-link:focus{
+ .page-link:active{
   color:#662EED;
+  
 }
 .is-active {
- color:#662EED; 
+  color: #662EED;
 }
 .main-title {
   margin: auto;
@@ -33,19 +36,27 @@ h1 {
    margin-top: 40px;
    font-size: 72px;
    }
-   .description {
+   .description, h4 {
     font-size: 24px;
    }
 
-   p{
+  p {
     font-size: 28px;
    }
+   .description-recipe,
+   .my-description {
+    font-size: 18px;
+    font-weight: 400;
+   }
 h2 {
-  
-  font-size: 24px;
-  font-weight: 700;
+    font-size: 64px;
+  }
+h3 {
+  font-size: 36px;
+  margin: 50px 0px 30px 0px;
 }
-ul {
+
+.nav-pages ul, footer ul, .author-link ul {
   display: inline-flex;
   gap: 20px;
   text-decoration: none;
@@ -64,3 +75,62 @@ span {
   font-family: 'Roboto Mono', monospace;
 }
 
+.container-about {
+  display: block;
+  margin: auto;
+  width: 960px;
+  }
+.container-dishes {
+  display: block;
+  margin: auto;
+  width: 1160px;
+
+}
+.list-contact{
+ display: block;
+ list-style: none;
+}
+.contact-link {
+ font-size: 18px;
+  color: #662EED;
+}
+.adress, .email, .phone {
+ font-size: 24px;
+ text-decoration: none;
+ color: black;
+ font-weight: 400;
+}
+.recipe li {
+text-decoration:underline;
+color: red;
+}
+.recipe-card {
+  display: block;
+  margin: auto;
+  padding-top: 30px;
+  width: 760px;
+}
+.container-recipe li {
+  list-style: none;
+  line-height: 2;
+  }
+  .container-recipe ul {
+    padding-left: 0;
+  }
+.ingridient li {
+  padding-bottom: 10px;
+border-bottom: dotted 1px #67D5D2;
+}
+.emphasise {
+  padding-top: 20px;
+  color: #F65282;
+  font-weight: 800;
+  line-height: 25px;
+}
+.col-title {
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 700;
+border-bottom: dotted 1px #67D5D2;
+}
